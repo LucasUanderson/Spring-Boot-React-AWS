@@ -14,8 +14,8 @@ public class FakeUserModelData {
 	private static final List<UserModel> USER_PROFILES = new ArrayList<>();
 	
 	static {
-		USER_PROFILES.add(new UserModel(UUID.randomUUID(), "Username", null ));
-		USER_PROFILES.add(new UserModel(UUID.randomUUID(), "Username", null ));
+		USER_PROFILES.add(new UserModel(UUID.randomUUID(), "Jhonjhones", null ));
+		USER_PROFILES.add(new UserModel(UUID.randomUUID(), "Superman", null ));
 	}
 	
 	public List<UserModel> getUserProfiles(){
